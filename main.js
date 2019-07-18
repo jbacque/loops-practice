@@ -66,7 +66,7 @@ function test(){
 
 // Solve each by coding a loop that produces the corresponding pattern.
 // For loops 1-8, the site will wrap your text for you, you do not add <br> tags
-// For loops 9 and 10, you will add <br> tags appropriately to duplicate the wrapping
+// For loops 9-11, you will add <br> tags appropriately to a nested loop. These ones can be tricky!
 
 function loop1(){
     
