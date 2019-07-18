@@ -8,9 +8,10 @@ let patterns = ['hello hello hello hello hello hello hello hello hello hello hel
                 '2 4 8 16 32 64 128 256 512 1024 2048 4096 8192 16384 <br>Total: 32766', 
                 '1 -3 9 -27 81 -243 729 -2187 ', 
                 '* ** *** **** ***** ****** ******* ******** ********* ********** ', 
-                '0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1',
+                '0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 ',
                 '*<br>**<br>***<br>****<br>*****<br>******<br>*******<br>********<br>*********<br>**********<br>***********<br>',
-                '1 2 3 4 5 <br>2 4 6 8 10 <br>3 6 9 12 15 <br>4 8 12 16 20 <br>5 10 15 20 25 <br>'
+                '1 2 3 4 5 <br>2 4 6 8 10 <br>3 6 9 12 15 <br>4 8 12 16 20 <br>5 10 15 20 25 <br>',
+                '- - - - - - - - - - <br>| | | | | | | | | <br>- - - - - - - - <br>| | | | | | | <br>- - - - - - <br>| | | | | <br>- - - - <br>| | | <br>- - <br>| <br>'
             ]
 let patternNum;
 
@@ -26,6 +27,8 @@ document.getElementById('p7').addEventListener('click', function(){showPattern(7
 document.getElementById('p8').addEventListener('click', function(){showPattern(8);});
 document.getElementById('p9').addEventListener('click', function(){showPattern(9);});
 document.getElementById('p10').addEventListener('click', function(){showPattern(10);});
+document.getElementById('p11').addEventListener('click', function(){showPattern(11);});
+
 
 
 document.getElementById('s1').addEventListener('click', () => {loop1();test();});
@@ -38,6 +41,8 @@ document.getElementById('s7').addEventListener('click', () => {loop7();test();})
 document.getElementById('s8').addEventListener('click', () => {loop8();test();});
 document.getElementById('s9').addEventListener('click', () => {loop9();test();});
 document.getElementById('s10').addEventListener('click', () => {loop10();test();});
+document.getElementById('s11').addEventListener('click', () => {loop11();test();});
+
 
 
 
@@ -76,7 +81,7 @@ function loop2(){
 }
 
 function loop3(){
-    
+    //The TOTAL must be calculated by the loop. No hardcoding the number directly!
 }
 
 function loop4(){
@@ -84,7 +89,8 @@ function loop4(){
 }
 
 function loop5(){
-    
+    //The TOTAL must be calculated by the loop. No hardcoding the number directly!
+
 }
 
 function loop6(){
@@ -96,14 +102,25 @@ function loop7(){
 }
 
 function loop8(){
-    // You many only print out a single digit at a time
+    // You may ONLY update the pattern a single digit at a time
+    
 
 }
 
 function loop9(){
-    // Use a nested for loop
+    // You may ONLY update the pattern a single character at a time
+    // Hint: Use a nested for loop
+
 }
 
 function loop10(){
-    // Use a nested for loop
+    // You may ONLY update the pattern a single digit(and a space) at a time
+    // Hint: Use a nested for loop
+
+}
+
+function loop11(){
+    // You may ONLY update the pattern a single character(and a space) at a time
+    // Hint: Use a nested for loop
+
 }
