@@ -108,8 +108,7 @@ function loop8(){
 }
 
 function loop9(){
-    // You may ONLY update the pattern a single character at a time
-    // Hint: Use a nested for loop
+    // Use a nested loop (no <br> tag allowed on the innermost loop)
 
 }
 
